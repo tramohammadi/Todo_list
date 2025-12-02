@@ -31,7 +31,7 @@ Clone the repo:
 ```bash
 git clone https://github.com/tramohammadi/Todo_list.git
 cd Todo_list
-pyhton3 -m http.server
+python3 -m http.server
 ```
 
 ## Usage
