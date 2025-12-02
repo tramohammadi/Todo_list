@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo – Cute Compact</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body class="">
+  <div class="container">
+
+    <header>
+      <h1 class="title">TODO ✿</h1>
+      <button id="theme-switcher" class="theme-btn">
+        <img src="./assets/images/icon-sun.svg" alt="theme" />
+      </button>
+    </header>
+
+    <div class="add-box">
+      <input id="addt" type="text" placeholder="add new tasks..." />
+      <button id="add-btn">+</button>
+    </div>
+
+    <ul class="todos all"></ul>
+
+    <div class="footer">
+      <span id="items-left">0 tasks left </span>
+
+      <div class="filter">
+        <button id="all" class="on">all</button>
+        <button id="active">active</button>
+        <button id="completed">completed</button>
+      </div>
+
+      <button id="clear-completed" class="clear-all">remove all the completeds </button>
+    </div>
+
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
